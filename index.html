@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+  
+</head>
+<body>
+		<section class="banner">
+    <header>
+      <a href="index.html" class="home">Sanujan</a>
+      <div class="toggle"></div>
+    </header>
+    <img src="sanu.png" class="girl">
+    <div class="content">
+      <div class="contentBx">
+        <h4>Hello,</h4>
+        <h2>I'm <span>Sanujan</span></h2>
+        <h3>Founder Sanueditz | Student at JHC</h3>
+        <a href="explore.html" target="_blank">Explore</a>
+        <a href="https://forms.gle/ocv3FMb6nWnoaNXCA" target="_blank">Contact me</a>
+      </div>
+    </div>
+    <ul class="sci">
+      <li><a href="issue.html" target="_blank"><img src="facebook.png"></a></li>
+      <li><a href="issue.html" target="_blank"><img src="x.png"></a></li>
+      <li><a href="issue.html" target="_blank"><img src="instagram.png"></a></li>
+      <li><a href="issue.html" target="_blank"><img src="linkedin.png"></a></li>
+    </ul>
+    <ul class="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="explore.html">About me</a></li>
+      <li><a href="services.html">My Services</a></li>
+      <li><a href="https://forms.gle/ocv3FMb6nWnoaNXCA" target="blank">Contact me</a></li>
+    </ul>
+  </section>
+  <script>
+    let banner = document.querySelector('.banner');
+    let menutoggle = document.querySelector('.toggle');
+    menutoggle.onclick = function(){
+      menutoggle.classList.toggle('active');
+      banner.classList.toggle('active');
+    }
+  </script>
+
+</body>
+</html>
